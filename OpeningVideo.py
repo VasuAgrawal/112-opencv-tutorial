@@ -15,7 +15,7 @@ cap.open(cam_index) # Enable the camera
 # Loop indefinitely
 while True:
 
-	# Read from the camera, getting the image and some return value
+    # Read from the camera, getting the image and some return value
     ret, frame = cap.read()
 
     # If frame is valid, display the image to our window
