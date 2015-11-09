@@ -7,7 +7,7 @@ window_name = "Images"
 
 # Importantly, images are stored as BGR
 # Use the following function to read images.
-image = cv2.imread("LightCat.jpg")
+image = cv2.imread("lightCat.jpg")
 # Error checking to make sure that our image actually loaded properly
 # Might fail if we have an invalid file name (or otherwise)
 if image is not None:
