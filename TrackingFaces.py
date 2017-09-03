@@ -19,7 +19,7 @@ class FaceDetector(object):
     def __init__(self):
 
         # Load in the classifiers we need for the face and eye.
-        facePath = "haarcascades/haarcascade_frontalface_alt.xml"
+        facePath = "haarcascades/haarcascade_frontalface_default.xml"
         logging.info("Loading face classifier from %s", facePath)
         self.faceCascade = cv2.CascadeClassifier(facePath)
 
