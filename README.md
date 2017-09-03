@@ -12,8 +12,11 @@ Please follow this order when going through the files:
  6. `ManualErosionAndDilation.py`
  7. `ErosionAndDilation.py`
  8. `PerformanceTips.py`
+ 9. `TrackingFaces.py`
 
+Image citations:
+ * https://i.imgur.com/qzCO1Wb.jpg
+ * http://vignette1.wikia.nocookie.net/runescape2/images/7/7f/Mask_of_Sliske%2C_Light_detail.png/revision/latest?cb=20140220151331
 
-**Image of cat from here:**
-
-    https://i.imgur.com/qzCO1Wb.jpg
+Haarcascade citations:
+ * https://github.com/opencv/opencv/tree/master/data/haarcascades
