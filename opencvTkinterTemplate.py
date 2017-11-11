@@ -1,6 +1,13 @@
 import time
-from tkinter import *
-import tkinter as tk
+import sys
+
+# Tkinter selector
+if sys.version_info[0] < 3:
+    from Tkinter import *
+    import Tkinter as tk
+else:
+    from tkinter import *
+    import tkinter as tk
 
 import numpy as np
 import cv2
